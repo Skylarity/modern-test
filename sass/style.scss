@@ -1,0 +1,14 @@
+$text-light: #fff;
+
+.jumbotron {
+	height: 100vh;
+}
+
+.mountain {
+	background: url('../img/mountain.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.white {
+	color: $text-light;
+}
