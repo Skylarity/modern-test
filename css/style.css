@@ -1,11 +1,9 @@
 .jumbotron {
-  height: 100vh; }
+  height: 100vh;
+  color: #fff; }
 
 .mountain {
   background: url("../img/mountain.jpg") no-repeat center center;
   background-size: cover; }
-
-.white {
-  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
