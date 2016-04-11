@@ -1,9 +1,46 @@
+* {
+  font-family: "Ubuntu", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif; }
+
 .jumbotron {
+  color: #fff;
   height: 100vh;
-  color: #fff; }
+  margin-bottom: 0;
+  padding-top: 30vh; }
+  .jumbotron h1 {
+    font-size: 5em;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.42); }
+  .jumbotron p {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.42); }
+    .jumbotron p .btn {
+      font-size: 1.25em;
+      padding: 1.25rem 2rem;
+      text-shadow: none; }
 
 .mountain {
   background: url("../img/mountain.jpg") no-repeat center center;
   background-size: cover; }
+
+.content-area-1 {
+  box-shadow: 0 0 400px 0 rgba(0, 0, 0, 0.42) inset;
+  background-color: #ffce00;
+  height: 100vh; }
+  .content-area-1 .container h2 {
+    font-size: 4em;
+    margin-top: 5rem; }
+  .content-area-1 .container p {
+    margin-top: 12rem; }
+  .content-area-1 .container .fa {
+    font-size: 15em; }
+
+.ca1-info {
+  font-size: 1.25em; }
 
 /*# sourceMappingURL=style.css.map */

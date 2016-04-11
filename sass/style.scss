@@ -1,11 +1,75 @@
 $text-light: #fff;
+$shadow-color: rgba(0, 0, 0, .42);
+$background-light: #ffce00;
+
+$font-headline: 'Montserrat', sans-serif;
+$font-paragraph: 'Ubuntu', sans-serif;
+
+@mixin box-shadow($size) {
+	box-shadow: 0 0 $size 0 $shadow-color inset;
+}
+
+* {
+	font-family: $font-paragraph;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-headline;
+}
 
 .jumbotron {
-	height: 100vh;
 	color: $text-light;
+	height: 100vh;
+	margin-bottom: 0;
+	padding-top: 30vh;
+
+	h1 {
+		font-size: 5em;
+		text-shadow: 10px 10px 10px $shadow-color;
+	}
+
+	p {
+		text-shadow: 5px 5px 5px $shadow-color;
+
+		.btn {
+			font-size: 1.25em;
+			padding: 1.25rem 2rem;
+			text-shadow: none;
+		}
+	}
 }
 
 .mountain {
 	background: url('../img/mountain.jpg') no-repeat center center;
 	background-size: cover;
+}
+
+.content-area-1 {
+	@include box-shadow(400px);
+	background-color: $background-light;
+	height: 100vh;
+
+	.container {
+		h2 {
+			font-size: 4em;
+			margin-top: 5rem;
+		}
+
+		p {
+			margin-top: 12rem;
+		}
+
+		.fa {
+			font-size: 15em;
+		}
+	}
+}
+
+.ca1-info {
+	font-size: 1.25em;
 }
