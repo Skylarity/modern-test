@@ -20,9 +20,16 @@ h6 {
   .jumbotron p {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.42); }
     .jumbotron p .btn {
+      background-color: #555;
       font-size: 1.25em;
       padding: 1.25rem 2rem;
-      text-shadow: none; }
+      text-shadow: none;
+      border-radius: 5px;
+      border: 0;
+      border-bottom: 4px solid #3c3c3c; }
+    .jumbotron p .btn:active {
+      background-color: #555;
+      border-color: #3c3c3c; }
 
 .mountain {
   background: url("../img/mountain.jpg") no-repeat center center;
