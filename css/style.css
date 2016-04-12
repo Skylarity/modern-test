@@ -9,6 +9,12 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif; }
 
+.text-thin {
+  font-weight: lighter; }
+
+.text-thick {
+  font-weight: bolder; }
+
 .jumbotron {
   color: #ffce00;
   height: 100vh;
@@ -31,9 +37,11 @@ h6 {
     .jumbotron p .btn:active {
       background-color: #333;
       border-color: #1a1a1a; }
+  .jumbotron .jumbotron-text {
+    margin-top: 20vh; }
 
 .mountain {
-  background: url("../img/mountain.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("../img/mountain.jpg") no-repeat center center;
   background-size: cover; }
 
 .content-area-1 {
@@ -54,12 +62,19 @@ h6 {
 .navbar-default {
   background-color: transparent;
   border: 0;
-  box-shadow: 0 50px 75px -25px rgba(0, 0, 0, 0.42) inset;
+  box-shadow: 0 50px 75px -5px rgba(0, 0, 0, 0.42) inset;
   padding-bottom: 50px; }
 
 .navbar-brand {
+  color: #ffce00 !important;
   font-size: 2em; }
-  .navbar-brand i {
-    color: #ffce00; }
+
+.brand-text {
+  font-family: "Ubuntu", sans-serif; }
+
+.nav li a {
+  color: #ffce00 !important; }
+.nav li a:hover {
+  color: #ffce00 !important; }
 
 /*# sourceMappingURL=style.css.map */
