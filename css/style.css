@@ -53,7 +53,7 @@ h6 {
 
 .navbar-default {
   background-color: transparent;
-  border: none;
+  border: 0;
   box-shadow: 0 50px 75px -25px rgba(0, 0, 0, 0.42) inset;
   padding-bottom: 50px; }
 
