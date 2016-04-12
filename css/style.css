@@ -10,26 +10,27 @@ h6 {
   font-family: "Montserrat", sans-serif; }
 
 .jumbotron {
-  color: #fff;
+  color: #ffce00;
   height: 100vh;
   margin-bottom: 0;
-  padding-top: 30vh; }
+  padding-top: 0; }
   .jumbotron h1 {
     font-size: 5em;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.42); }
   .jumbotron p {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.42); }
     .jumbotron p .btn {
-      background-color: #555;
+      background-color: #333;
+      border: 0;
+      border-bottom: 4px solid #1a1a1a;
+      border-radius: 5px;
+      color: #ffce00;
       font-size: 1.25em;
       padding: 1.25rem 2rem;
-      text-shadow: none;
-      border-radius: 5px;
-      border: 0;
-      border-bottom: 4px solid #3c3c3c; }
+      text-shadow: none; }
     .jumbotron p .btn:active {
-      background-color: #555;
-      border-color: #3c3c3c; }
+      background-color: #333;
+      border-color: #1a1a1a; }
 
 .mountain {
   background: url("../img/mountain.jpg") no-repeat center center;
@@ -49,5 +50,16 @@ h6 {
 
 .ca1-info {
   font-size: 1.25em; }
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 50px 75px -25px rgba(0, 0, 0, 0.42) inset;
+  padding-bottom: 50px; }
+
+.navbar-brand {
+  font-size: 2em; }
+  .navbar-brand i {
+    color: #ffce00; }
 
 /*# sourceMappingURL=style.css.map */

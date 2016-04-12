@@ -1,7 +1,8 @@
-$text-light: #fff;
-$button-color: #555;
+$text-light: #ffce00;
+$text-dark: #333;
+$button-color: #333;
 $shadow-color: rgba(0, 0, 0, .42);
-$background-light: #ffce00;
+$light-color: #ffce00;
 
 $font-headline: 'Montserrat', sans-serif;
 $font-paragraph: 'Ubuntu', sans-serif;
@@ -27,7 +28,7 @@ h6 {
 	color: $text-light;
 	height: 100vh;
 	margin-bottom: 0;
-	padding-top: 30vh;
+	padding-top: 0;
 
 	h1 {
 		font-size: 5em;
@@ -39,12 +40,13 @@ h6 {
 
 		.btn {
 			background-color: $button-color;
+			border: 0;
+			border-bottom: 4px solid darken($button-color, 10%);
+			border-radius: 5px;
+			color: $text-light;
 			font-size: 1.25em;
 			padding: 1.25rem 2rem;
 			text-shadow: none;
-			border-radius: 5px;
-			border: 0;
-			border-bottom: 4px solid darken($button-color, 10%);
 		}
 
 		.btn:active {
@@ -61,7 +63,7 @@ h6 {
 
 .content-area-1 {
 	@include box-shadow(400px);
-	background-color: $background-light;
+	background-color: $light-color;
 	height: 100vh;
 
 	.container {
@@ -82,4 +84,19 @@ h6 {
 
 .ca1-info {
 	font-size: 1.25em;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+	box-shadow: 0 50px 75px -25px $shadow-color inset;
+	padding-bottom: 50px;
+}
+
+.navbar-brand {
+	font-size: 2em;
+
+	i {
+		color: $text-light;
+	}
 }
